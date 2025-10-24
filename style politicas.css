@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.link {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.salir {
+    padding: 10px 20px;
+    background-color: white; 
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.salir:hover {
+    background-color: #6b6a6a;
+    color: white;
+    text-decoration: underline;
+}
+
+
+.contenido {
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 100px auto 100px;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+.politica h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.politica h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.politica p, .politica ul {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.politica ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.politica ul li {
+    margin-bottom: 8px;
+}
+
+footer.pie {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.final {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.final h2 {
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.final p {
+    padding-top: 30px;
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.final a {
+    padding: 10px 20px;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.final a:hover {
+    color: #222;
+    text-decoration: underline;
+}

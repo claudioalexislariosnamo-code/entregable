@@ -1,0 +1,539 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* estilo del logo*/
+.logo{
+    margin: 0;
+    
+}
+/*navegacion principal*/
+.link {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.salir {
+    padding: 10px 20px;
+    background-color: white; 
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.salir:hover {
+    background-color: #6b6a6a;
+    color: white;
+    text-decoration: underline;
+}
+
+/*cuadro de 1 de publicacion de RC901*/
+.cuadro{
+    margin-top: 90px;
+    margin-left: 550px;
+    width: 900px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;
+    
+}
+.cuadro h1{
+    padding-left: 460px;
+    padding-top: 1px;
+}
+
+.informacion label{
+    position: relative;
+    padding-left: 460px;
+    top: 5px;
+    color: rgb(80, 80, 80);
+}
+
+.informacion h2{
+    position: relative;
+    padding-left: 460px;
+    top: 8px;
+}
+
+.informacion p{
+    position: relative;
+    padding-left: 460px;
+    top: 10px;
+    color: rgb(80, 80, 80);
+}
+
+.boton{
+    position: relative;
+    left: 480px;
+    top: -190px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.informacion img{
+    position: relative;
+    width: 200px;
+    top: -130px;
+    right: 150px;
+    
+}
+
+.otros{
+    position: relative;
+    top: 50px;
+    left: 98px;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    
+}
+/*cuadro 2 de router cisco900 */
+.cuadro2{
+position: relative;
+    left: 80px;
+    top: 100px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px; 
+}
+
+.info1 img{
+    position: relative;
+    left: 40px;
+    top: -60px;
+    width: 150px;
+}
+
+.cuadro2 h3{
+    position: relative;
+    text-align: center;
+    top: 120px;
+}
+
+.info1 p{
+    position: relative;
+    text-align: center;
+    top: 140px;
+    color: gray;
+}
+
+.info1 h4{
+    position: relative;
+    text-align: center;
+    top: 160px;
+}
+/*cuadro 3 router asus*/
+.cuadro3{
+    position: relative;
+    left: 80px;
+    top: 130px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;  
+}
+
+.info2 img{
+    position: relative;
+    left: 50px;
+    top: -103px;
+    width: 150px;
+}
+
+.cuadro3 h3{
+    position: relative;
+    text-align: center;
+    top: 120px;
+}
+
+.info2 p{
+    position: relative;
+    text-align: center;
+    top: 130px;
+    color: gray;
+}
+
+.info2 h4{
+    position: relative;
+    text-align: center;
+    top: 140px;
+}
+/*cuadro4 router cisco 8100*/
+.cuadro4{
+    position: relative;
+    left: 460px;
+    top: -460px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;  
+}
+
+.info3 img{
+    position: relative;
+    left: 20px;
+    top: -50px;
+    width: 180px;
+}
+
+.cuadro4 h3{
+    position: relative;
+    text-align: center;
+    top: 115px;
+}
+
+.info3 p{
+    position: relative;
+    text-align: center;
+    top: 140px;
+    color: gray;
+}
+
+.info3 h4{
+    position: relative;
+    text-align: center;
+    top: 160px;
+}
+/*switch 5 1300*/
+.cuadro5{
+    position: relative;
+    left: 460px;
+    top: -430px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;  
+}
+.info4 img{
+    position: relative;
+    left: 40px;
+    top: -80px;
+    width: 150px;
+}
+
+.cuadro5 h3{
+    position: relative;
+    text-align: center;
+    top: 130px;
+}
+
+.info4 p{
+    position: relative;
+    text-align: center;
+    top: 150px;
+    color: gray;
+}
+
+.info4 h4{
+    position: relative;
+    text-align: center;
+    top: 170px;
+}
+/*swicht 6 tplink 108*/
+.cuadro6{
+    position: relative;
+    left: 830px;
+    top: -1020px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;  
+}
+
+.info5 img{
+    position: relative;
+    left: 25px;
+    top: -60px;
+    width: 180px;
+}
+
+.cuadro6 h3{
+    position: relative;
+    text-align: center;
+    top: 120px;
+}
+
+.info5 p{
+    position: relative;
+    text-align: center;
+    top: 130px;
+    color: gray;
+}
+
+.info5 h4{
+    position: relative;
+    text-align: center;
+    top: 140px;
+}
+/*cable 7  utp */
+.cuadro7{
+    position: relative;
+    left: 830px;
+    top: -990px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;  
+}
+
+.info6 img{
+    position: relative;
+    left: 25px;
+    top: -80px;
+    width: 180px;
+}
+
+.cuadro7 h3{
+    position: relative;
+    text-align: center;
+    top: 130px;
+}
+
+.info6 p{
+    position: relative;
+    text-align: center;
+    top: 150px;
+    color: gray;
+}
+
+.info6 h4{
+    position: relative;
+    text-align: center;
+    top: 170px;
+}
+/*swtich 8 cisco 2960x*/
+.cuadro8{
+    position: relative;
+    left: 1200px;
+    top: -1580px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;  
+}
+
+.info7 img{
+    position: relative;
+    left: 25px;
+    top: -60px;
+    width: 180px;
+}
+
+.cuadro8 h3{
+    position: relative;
+    text-align: center;
+    top: 120px;
+}
+
+.info7 p{
+    position: relative;
+    text-align: center;
+    top: 140px;
+    color: gray;
+}
+
+.info7 h4{
+    position: relative;
+    text-align: center;
+    top: 150px;
+}
+/*router 9 cisco c1111*/
+.cuadro9{
+    position: relative;
+    left: 1200px;
+    top: -1550px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+   box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;  
+}
+
+.info8 img{
+    position: relative;
+    left: 25px;
+    top: -40px;
+    width: 180px;
+}
+
+.cuadro9 h3{
+    position: relative;
+    text-align: center;
+    top: 115px;
+}
+
+.info8 p{
+    position: relative;
+    text-align: center;
+    top: 125px;
+    color: gray;
+}
+
+.info8 h4{
+    position: relative;
+    text-align: center;
+    top: 135px;
+}
+/*cable 10 consola RJ54*/
+.cuadro10{
+    position: relative;
+    left: 1570px;
+    top: -2140px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;  
+}
+
+.info9 img{
+    position: relative;
+    left: 40px;
+    top: -90px;
+    width: 150px;
+}
+
+.cuadro10 h3{
+    position: relative;
+    text-align: center;
+    top: 120px;
+}
+
+.info9 p{
+    position: relative;
+    text-align: center;
+    top: 130px;
+    color: gray;
+}
+
+.info9 h4{
+    position: relative;
+    text-align: center;
+    top: 140px;
+}
+/*Cable UTP 11 categoria 8*/
+.cuadro11{
+    position: relative;
+    left: 1570px;
+    top: -2110px;
+    width: 250px;
+    height: 280px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(51, 51, 51);
+    background: rgba(255, 255, 255, 0.945);
+    border-radius: 10px;  
+}
+
+.info10 img{
+    position: relative;
+    left: 40px;
+    top: -80px;
+    width: 150px;
+}
+
+.cuadro11 h3{
+    position: relative;
+    text-align: center;
+    top: 140px;
+}
+
+.info10 p{
+    position: relative;
+    text-align: center;
+    top: 150px;
+    color: gray;
+}
+
+.info10 h4{
+    position: relative;
+    text-align: center;
+    top: 160px;
+}
+/*estilo del pie de pagina*/
+footer.pie {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    text-align: center;
+    margin-top: -2000px;
+}
+
+.final {
+    width: 100%;
+    padding: 40px;
+}
+
+.final h2 {
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.final p {
+    padding-top: 30px;
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.final a {
+    padding: 10px 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.final a:hover {
+    color: #222;
+    text-decoration: underline;
+}

@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabecera con imagen de fondo */
+.cabeza {
+    display: flex;
+    background: url(img/fondo1234.png) no-repeat center center;
+    background-size: cover;
+    color: #000000; /* Cambié el color del texto a blanco para que se vea sobre la imagen */
+    padding: 20px;
+    height: 400px;
+    justify-content: center;
+    position: relative;
+}
+
+/* Título centrado */
+.cabezatext {
+    text-align: center;
+    position: absolute;
+    top: 50%;  /* Centra el contenido verticalmente */
+    left: 50%; /* Centra el contenido horizontalmente */
+    transform: translate(-50%, -50%); /* Ajuste final para centrar */
+    z-index: 1;  /* Asegura que el título esté sobre la imagen */
+}
+
+.cabezatext h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.cabezatext p {
+    font-size: 1.2rem;
+}
+
+/* Barra de navegación en la esquina derecha */
+.nav {
+    display: flex;
+    position: absolute;
+    right: 20px; /* Mueve los enlaces a la derecha */
+    top: 20px; /* Mueve los enlaces hacia la parte superior */
+    z-index: 2; /* Asegura que los enlaces estén sobre la imagen */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000; /* Color blanco para que resalten sobre la imagen */
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav a:hover {
+    color: #1e21dd; /* Cambia el color al pasar el mouse sobre el enlace */
+}
+/*estilo de producto1*/
+.producto1{
+    display: flex;
+}
+.imagen1 img{
+    max-width: 100%;
+    width: 400px;
+    margin-left: 100px;
+}
+.descripcion{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+/*estilo de producto2*/
+.producto2{
+    display: flex;
+}
+.imagen2 img{
+    max-width: 100%;
+    width: 300px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.descripcion2{
+    margin-top: -10px;
+    margin-left:50px;
+}
+/*estilo de producto3*/
+.producto3{
+    display: flex;
+}
+.imagen3 img{
+    max-width: 100%;
+    width: 400px;
+    margin-left: 900px;
+    margin-top: -900px;
+}
+.descripcion3{
+    margin-top: -450px;
+    margin-left:10px;
+}
+/*estilo de producto4*/
+.producto4{
+    display: flex;
+}
+.imagen4 img{
+    max-width: 100%;
+    width: 400px;
+    margin-left: 120px;
+}
+.descripcion4{
+    margin-top: 10px;
+    margin-left:-10px;
+}
+.producto5{
+    display: flex;
+}
+.imagen5 img{
+    max-width: 100%;
+    width: 400px;
+    margin-left: 900px;
+    margin-top: -250px;
+    
+}
+.descripcion5{
+    margin-top: -220px;
+    margin-left:-10px;
+}
+/*beneficios*/
+
+
+
+.sub h1{
+    text-align: center;
+    padding: 20px;
+}
+.text1{
+    
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text2{
+    margin-left: 790px;
+    margin-top: -140px;
+    margin-bottom: 5px;
+}
+.text3{
+    margin-left: 1350px;
+    margin-top: -138px;
+    margin-bottom: 50px;
+}
+         
+
+.comp1 {
+    padding: 10px 20px;
+    background-color: rgb(0, 17, 112); 
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.comp1:hover {
+    background-color: #6b6a6a;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+.comp2 {
+    padding: 10px 20px;
+    background-color: rgb(0, 17, 112); 
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.comp2:hover {
+    background-color: #6b6a6a;
+    color: white;
+    text-decoration: underline;
+}
+
+.comp3 {
+    padding: 10px 20px;
+    background-color: rgb(0, 17, 112); 
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.comp3:hover {
+    background-color: #6b6a6a;
+    color: white;
+    text-decoration: underline;
+}
+
+.comp4 {
+    padding: 10px 20px;
+    background-color: rgb(0, 17, 112); 
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.comp4:hover {
+    background-color: #6b6a6a;
+    color: white;
+    text-decoration: underline;
+}
+
+.comp5 {
+    padding: 10px 20px;
+    background-color: rgb(0, 17, 112); 
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.comp5:hover {
+    background-color: #6b6a6a;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*estilo del pie de la pagina*/
+footer.pie {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    text-align: center;
+}
+
+.final {
+    width: 100%;
+}
+
+.final h2 {
+    padding-bottom: 1px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.final p {
+    padding-top: 30px;
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.final a {
+    padding: 10px 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.final a:hover {
+    color: #222;
+    text-decoration: underline;
+}
